@@ -3,13 +3,13 @@ import sys
 from scapy.all import *
 import argparse
 
-# Cores para o terminal
+
 RED = "\033[91m"
 GREEN = "\033[92m"
 RESET = "\033[0m"
 YELLOW = "\033[93m"
 
-# 25 portas mais conhecidas (adaptar se necessário)
+
 portas_comuns = [21, 22, 23, 25, 53, 80, 110, 139, 443, 445, 1433, 1521, 3306, 3389, 5432, 5900, 8080, 8443, 10000, 27017, 27018, 5000, 9000, 9090, 9200]
 
 parser = argparse.ArgumentParser(description="Scanner de portas TCP com Scapy.")
