@@ -1,0 +1,13 @@
+# Clonar o repositório
+
+# Instalar dependências
+pip install colorama
+
+Sintaxe Básica
+python3 luxcrack.py <hash> [--wordlist wordlist.txt] [--john]
+
+Ataque com wordlist:
+python3 quebrador_senhas.py '$6$salt$hash' --wordlist rockyou.txt
+
+Ataque com John the Ripper:
+python3 quebrador_senhas.py '$6$salt$hash' --john
